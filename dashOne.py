@@ -1,5 +1,6 @@
 # libraries and packages needed for GUI
 import dash
+import os
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
@@ -9,7 +10,7 @@ import logging
 import webbrowser
 from threading import Timer
 
-port = 8050 # specify the port number while displaying the web page
+port = os.environ['PORT'] # specify the port number while displaying the web page
 
 # running the server using Flask package
 server = Flask(__name__)
