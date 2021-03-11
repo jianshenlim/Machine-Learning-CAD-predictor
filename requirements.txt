@@ -44,7 +44,7 @@ scipy==1.5.2
 seaborn==0.10.1
 six==1.15.0
 threadpoolctl==2.1.0
-torch==1.6.0+cpu
+torch==1.8.0
 utils==1.0.1
 virtualenv==20.0.21
 Werkzeug==1.0.1
