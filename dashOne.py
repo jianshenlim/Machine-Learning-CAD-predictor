@@ -29,7 +29,7 @@ app.layout = html.Div([
 
     # first section on the HTML webpage which is the title for the product
     html.Div([
-        html.H2("Heart Disease Prediction Team 5", style={"margin-top": 5}),
+        html.H2("Heart Disease Predictor", style={"margin-top": 5}),
         html.Hr(),
     ], style={'textAlign': 'center'}),
 
